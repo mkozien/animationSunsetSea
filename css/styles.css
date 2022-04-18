@@ -66,7 +66,7 @@ body {
 .base {
   bottom: 0;
   height: 30px;
-  width: 200px;
+  width: 225px;
 }
 
 .cloud2 {
@@ -100,6 +100,58 @@ body {
   right: -150px;
   height: 80px;
   width: 200px;
+  border-radius: 50%;
+}
+
+.cloud3 {
+  top: 10%;
+  left: 70%;
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-animation: cloud 16s linear infinite, cloud3-move 8s linear infinite;
+          animation: cloud 16s linear infinite, cloud3-move 8s linear infinite;
+}
+
+.circle-left3 {
+  bottom: 0;
+  left: -150px;
+  height: 200px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.circle-right3 {
+  bottom: 0;
+  right: -65px;
+  height: 80px;
+  width: 90px;
+  border-radius: 50%;
+}
+
+.cloud4 {
+  top: 80%;
+  left: 5%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-animation: cloud 16s linear infinite, cloud4-move 8s linear infinite;
+          animation: cloud 16s linear infinite, cloud4-move 8s linear infinite;
+}
+
+.circle-left4 {
+  bottom: 0;
+  left: -60px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.circle-right4 {
+  bottom: 0;
+  right: -90px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
 }
 
@@ -265,6 +317,42 @@ body {
   }
   to {
     left: 170%;
+  }
+}
+
+@-webkit-keyframes cloud3-move {
+  from {
+    left: -20%;
+  }
+  to {
+    left: 180%;
+  }
+}
+
+@keyframes cloud3-move {
+  from {
+    left: -20%;
+  }
+  to {
+    left: 180%;
+  }
+}
+
+@-webkit-keyframes cloud4-move {
+  from {
+    left: -70%;
+  }
+  to {
+    left: 110%;
+  }
+}
+
+@keyframes cloud4-move {
+  from {
+    left: -70%;
+  }
+  to {
+    left: 110%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
