@@ -1,0 +1,39 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.sky {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  background-color: #0d61d5;
+}
+
+.sea {
+  position: relative;
+  height: 20vh;
+  width: 100%;
+  background-color: #c2dfff;
+}
+
+.beach {
+  position: relative;
+  height: 20vh;
+  width: 100%;
+  background-color: #d5ad0d;
+}
+
+.ground {
+  position: relative;
+  height: 10vh;
+  width: 100%;
+  background-color: #533b24;
+}
+/*# sourceMappingURL=styles.css.map */
