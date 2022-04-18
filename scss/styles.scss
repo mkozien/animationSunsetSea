@@ -26,7 +26,7 @@ body {
 	position: relative;
 	height: 20vh;
 	width: 100%;
-	background-color: rgb(213, 173, 13);
+	background-color: #e5c050;
 }
 
 .ground {
@@ -34,4 +34,50 @@ body {
 	height: 10vh;
 	width: 100%;
 	background-color: rgb(83, 59, 36);
+}
+
+.sun {
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	background-color: gold;
+	box-shadow: 0 0 200px gold;
+	animation: sun 16s linear infinite;
+}
+
+@keyframes sun {
+	0% {
+		top: 150%;
+	}
+
+	15% {
+		background-color: rgb(255, 128, 0);
+		box-shadow: 0 0 200px rgb(255, 89, 0);
+		top: 90%;
+	}
+
+	30% {
+		background-color: gold;
+		box-shadow: 0 0 200px gold;
+		top: 10%;
+	}
+
+	70% {
+		background-color: gold;
+		box-shadow: 0 0 200px gold;
+		top: 10%;
+	}
+
+	85% {
+		background-color: rgb(255, 106, 0);
+		box-shadow: 0 0 200px rgb(255, 60, 0);
+		top: 90%;
+	}
+
+	100% {
+		top: 150%;
+	}
 }

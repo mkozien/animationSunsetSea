@@ -27,7 +27,7 @@ body {
   position: relative;
   height: 20vh;
   width: 100%;
-  background-color: #d5ad0d;
+  background-color: #e5c050;
 }
 
 .ground {
@@ -35,5 +35,85 @@ body {
   height: 10vh;
   width: 100%;
   background-color: #533b24;
+}
+
+.sun {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: gold;
+  -webkit-box-shadow: 0 0 200px gold;
+          box-shadow: 0 0 200px gold;
+  -webkit-animation: sun 16s linear infinite;
+          animation: sun 16s linear infinite;
+}
+
+@-webkit-keyframes sun {
+  0% {
+    top: 150%;
+  }
+  15% {
+    background-color: #ff8000;
+    -webkit-box-shadow: 0 0 200px #ff5900;
+            box-shadow: 0 0 200px #ff5900;
+    top: 90%;
+  }
+  30% {
+    background-color: gold;
+    -webkit-box-shadow: 0 0 200px gold;
+            box-shadow: 0 0 200px gold;
+    top: 10%;
+  }
+  70% {
+    background-color: gold;
+    -webkit-box-shadow: 0 0 200px gold;
+            box-shadow: 0 0 200px gold;
+    top: 10%;
+  }
+  85% {
+    background-color: #ff6a00;
+    -webkit-box-shadow: 0 0 200px #ff3c00;
+            box-shadow: 0 0 200px #ff3c00;
+    top: 90%;
+  }
+  100% {
+    top: 150%;
+  }
+}
+
+@keyframes sun {
+  0% {
+    top: 150%;
+  }
+  15% {
+    background-color: #ff8000;
+    -webkit-box-shadow: 0 0 200px #ff5900;
+            box-shadow: 0 0 200px #ff5900;
+    top: 90%;
+  }
+  30% {
+    background-color: gold;
+    -webkit-box-shadow: 0 0 200px gold;
+            box-shadow: 0 0 200px gold;
+    top: 10%;
+  }
+  70% {
+    background-color: gold;
+    -webkit-box-shadow: 0 0 200px gold;
+            box-shadow: 0 0 200px gold;
+    top: 10%;
+  }
+  85% {
+    background-color: #ff6a00;
+    -webkit-box-shadow: 0 0 200px #ff3c00;
+            box-shadow: 0 0 200px #ff3c00;
+    top: 90%;
+  }
+  100% {
+    top: 150%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
