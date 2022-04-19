@@ -14,6 +14,8 @@ body {
   height: 50vh;
   width: 100%;
   background-color: #0d61d5;
+  -webkit-animation: sky 16s linear infinite;
+          animation: sky 16s linear infinite;
 }
 
 .sun {
@@ -413,16 +415,58 @@ body {
 
 @-webkit-keyframes cloud {
   0% {
-    background-color: #686868;
+    background-color: #020218;
   }
   15% {
-    background-color: #d89090;
+    background-color: #ff6a00;
   }
   30% {
     background-color: #ddd;
   }
   70% {
     background-color: #ddd;
+  }
+  85% {
+    background-color: #ff6a00;
+  }
+  100% {
+    background-color: #020218;
+  }
+}
+
+@keyframes cloud {
+  0% {
+    background-color: #020218;
+  }
+  15% {
+    background-color: #ff6a00;
+  }
+  30% {
+    background-color: #ddd;
+  }
+  70% {
+    background-color: #ddd;
+  }
+  85% {
+    background-color: #ff6a00;
+  }
+  100% {
+    background-color: #020218;
+  }
+}
+
+@-webkit-keyframes sky {
+  0% {
+    background-color: #686868;
+  }
+  15% {
+    background-color: #d89090;
+  }
+  30% {
+    background-color: #0d61d5;
+  }
+  70% {
+    background-color: #0d61d5;
   }
   85% {
     background-color: #d89090;
@@ -432,7 +476,7 @@ body {
   }
 }
 
-@keyframes cloud {
+@keyframes sky {
   0% {
     background-color: #686868;
   }
@@ -440,10 +484,10 @@ body {
     background-color: #d89090;
   }
   30% {
-    background-color: #ddd;
+    background-color: #0d61d5;
   }
   70% {
-    background-color: #ddd;
+    background-color: #0d61d5;
   }
   85% {
     background-color: #d89090;

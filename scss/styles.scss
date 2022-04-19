@@ -13,6 +13,7 @@ body {
 	height: 50vh;
 	width: 100%;
 	background-color: rgb(13, 97, 213);
+	animation: sky 16s linear infinite;
 }
 
 .sun {
@@ -34,7 +35,12 @@ body {
 	height: 300px;
 	width: 300px;
 	border-radius: 50%;
-	background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(172,181,182,1) 56%, rgba(155,171,179,1) 100%);
+	background: linear-gradient(
+		270deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(172, 181, 182, 1) 56%,
+		rgba(155, 171, 179, 1) 100%
+	);
 	box-shadow: 0 0 200px rgb(255, 255, 255);
 	animation: moon 16s linear infinite;
 }
@@ -350,11 +356,11 @@ body {
 
 @keyframes cloud {
 	0% {
-		background-color: rgb(104, 104, 104);
+		background-color: rgb(2, 2, 24);
 	}
 
 	15% {
-		background-color: rgb(216, 144, 144);
+		background-color: rgb(255, 106, 0);
 	}
 
 	30% {
@@ -363,6 +369,32 @@ body {
 
 	70% {
 		background-color: #ddd;
+	}
+
+	85% {
+		background-color: rgb(255, 106, 0);
+	}
+
+	100% {
+		background-color: rgb(2, 2, 24);
+	}
+}
+
+@keyframes sky {
+	0% {
+		background-color: rgb(104, 104, 104);
+	}
+
+	15% {
+		background-color: rgb(216, 144, 144);
+	}
+
+	30% {
+		background-color: rgb(13, 97, 213);
+	}
+
+	70% {
+		background-color: rgb(13, 97, 213);
 	}
 
 	85% {
