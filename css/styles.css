@@ -421,6 +421,71 @@ body {
   background-color: #c2dfff;
 }
 
+.boat {
+  position: absolute;
+  top: -25%;
+  left: 50%;
+  height: 300px;
+  width: 400px;
+  -webkit-animation: boat 16s linear infinite;
+          animation: boat 16s linear infinite;
+}
+
+.upper-part {
+  position: absolute;
+  top: -70px;
+  left: 30px;
+  height: 100px;
+  width: 200px;
+  border-top-left-radius: 25px;
+  background-color: #aaaaaa;
+}
+
+.window {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 80px;
+  width: 100px;
+  background-color: #0084ff;
+}
+
+.head {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.trunk {
+  position: absolute;
+  bottom: 0;
+  left: 60%;
+  height: 50px;
+  width: 10px;
+  background-color: #000;
+}
+
+.lower-part {
+  position: absolute;
+  height: 150px;
+  width: 400px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 150%;
+  background-color: #aaaaaa;
+}
+
+.paint {
+  position: absolute;
+  top: 20%;
+  height: 15px;
+  width: 100%;
+  background-color: #c42424;
+}
+
 .waves {
   position: absolute;
   width: 100%;
@@ -604,20 +669,6 @@ body {
   left: 70%;
   -webkit-animation: wave24-move 16s linear infinite;
           animation: wave24-move 16s linear infinite;
-}
-
-.wave25 {
-  top: 75%;
-  left: 30%;
-  -webkit-animation: wave25-move 16s linear infinite;
-          animation: wave25-move 16s linear infinite;
-}
-
-.wave26 {
-  top: 55%;
-  left: 50%;
-  -webkit-animation: wave26-move 16s linear infinite;
-          animation: wave26-move 16s linear infinite;
 }
 
 .beach {
@@ -1829,6 +1880,40 @@ body {
   100% {
     top: 65%;
     left: -20%;
+  }
+}
+
+@-webkit-keyframes boat {
+  0% {
+    top: -30%;
+    left: -20%;
+  }
+  30% {
+    top: -25%;
+  }
+  70% {
+    top: -35%;
+  }
+  100% {
+    top: -30%;
+    left: 120%;
+  }
+}
+
+@keyframes boat {
+  0% {
+    top: -30%;
+    left: -20%;
+  }
+  30% {
+    top: -25%;
+  }
+  70% {
+    top: -35%;
+  }
+  100% {
+    top: -30%;
+    left: 120%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
