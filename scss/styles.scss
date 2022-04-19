@@ -35,11 +35,11 @@ body {
 	height: 300px;
 	width: 300px;
 	border-radius: 50%;
-	background: linear-gradient(
-		270deg,
-		rgba(2, 0, 36, 1) 0%,
-		rgba(172, 181, 182, 1) 56%,
-		rgba(155, 171, 179, 1) 100%
+	background: radial-gradient(
+		circle,
+		rgba(155, 171, 179, 1) 67%,
+		rgba(172, 181, 182, 1) 82%,
+		rgba(2, 0, 36, 1) 100%
 	);
 	box-shadow: 0 0 200px rgb(255, 255, 255);
 	animation: moon 16s linear infinite;
@@ -273,6 +273,135 @@ body {
 	border-radius: 50%;
 }
 
+.stars {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.star {
+	position: absolute;
+	background-color: #ddd;
+	box-shadow: 0 0 10px white;
+	border-radius: 50%;
+	animation: stars 16s linear infinite;
+}
+
+.big-star {
+	height: 50px;
+	width: 50px;
+}
+
+.medium-star {
+	height: 30px;
+	width: 30px;
+}
+
+.small-star {
+	height: 10px;
+	width: 10px;
+}
+
+.star1 {
+	top: 10%;
+	left: 30%;
+}
+
+.star2 {
+	top: 30%;
+	left: 90%;
+}
+
+.star3 {
+	top: 15%;
+	left: 5%;
+}
+
+.star4 {
+	top: 40%;
+	left: 5%;
+}
+
+.star5 {
+	top: 80%;
+	left: 80%;
+}
+
+.star6 {
+	top: 95%;
+	left: 10%;
+}
+
+.star7 {
+	top: 70%;
+	left: 40%;
+}
+
+.star8 {
+	top: 40%;
+	left: 25%;
+}
+
+.star9 {
+	top: 10%;
+	left: 80%;
+}
+
+.star10 {
+	top: 70%;
+	left: 20%;
+}
+
+.star11 {
+	top: 60%;
+	left: 95%;
+}
+
+.star12 {
+	top: 30%;
+	left: 70%;
+}
+
+.star13 {
+	top: 85%;
+	left: 25%;
+}
+
+.star14 {
+	top: 95%;
+	left: 15%;
+}
+
+.star15 {
+	top: 15%;
+	left: 65%;
+}
+
+.star16 {
+	top: 40%;
+	left: 60%;
+}
+
+.star17 {
+	top: 65%;
+	left: 70%;
+}
+
+.star18 {
+	top: 80%;
+	left: 80%;
+}
+
+.star19 {
+	top: 90%;
+	left: 30%;
+}
+
+.star20 {
+	top: 10%;
+	left: 40%;
+}
+
 .sea {
 	position: relative;
 	height: 20vh;
@@ -382,10 +511,10 @@ body {
 
 @keyframes sky {
 	0% {
-		background-color: rgb(104, 104, 104);
+		background-color: rgb(13, 12, 83);
 	}
 
-	15% {
+	20% {
 		background-color: rgb(216, 144, 144);
 	}
 
@@ -397,12 +526,12 @@ body {
 		background-color: rgb(13, 97, 213);
 	}
 
-	85% {
+	80% {
 		background-color: rgb(216, 144, 144);
 	}
 
 	100% {
-		background-color: rgb(104, 104, 104);
+		background-color: rgb(13, 12, 83);
 	}
 }
 
@@ -483,5 +612,27 @@ body {
 
 	to {
 		left: 100%;
+	}
+}
+
+@keyframes stars {
+	0% {
+		background-color: #ddd;
+		box-shadow: 0 0 10px white;
+	}
+
+	20% {
+		background-color: transparent;
+		box-shadow: 0 0 0px transparent;
+	}
+
+	80% {
+		background-color: transparent;
+		box-shadow: 0 0 0px transparent;
+	}
+
+	100% {
+		background-color: #ddd;
+		box-shadow: 0 0 10px white;
 	}
 }

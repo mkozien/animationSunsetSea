@@ -39,8 +39,7 @@ body {
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  background: -webkit-gradient(linear, right top, left top, from(#020024), color-stop(56%, #acb5b6), to(#9babb3));
-  background: linear-gradient(270deg, #020024 0%, #acb5b6 56%, #9babb3 100%);
+  background: radial-gradient(circle, #9babb3 67%, #acb5b6 82%, #020024 100%);
   -webkit-box-shadow: 0 0 200px white;
           box-shadow: 0 0 200px white;
   -webkit-animation: moon 16s linear infinite;
@@ -284,6 +283,137 @@ body {
   border-radius: 50%;
 }
 
+.stars {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.star {
+  position: absolute;
+  background-color: #ddd;
+  -webkit-box-shadow: 0 0 10px white;
+          box-shadow: 0 0 10px white;
+  border-radius: 50%;
+  -webkit-animation: stars 16s linear infinite;
+          animation: stars 16s linear infinite;
+}
+
+.big-star {
+  height: 50px;
+  width: 50px;
+}
+
+.medium-star {
+  height: 30px;
+  width: 30px;
+}
+
+.small-star {
+  height: 10px;
+  width: 10px;
+}
+
+.star1 {
+  top: 10%;
+  left: 30%;
+}
+
+.star2 {
+  top: 30%;
+  left: 90%;
+}
+
+.star3 {
+  top: 15%;
+  left: 5%;
+}
+
+.star4 {
+  top: 40%;
+  left: 5%;
+}
+
+.star5 {
+  top: 80%;
+  left: 80%;
+}
+
+.star6 {
+  top: 95%;
+  left: 10%;
+}
+
+.star7 {
+  top: 70%;
+  left: 40%;
+}
+
+.star8 {
+  top: 40%;
+  left: 25%;
+}
+
+.star9 {
+  top: 10%;
+  left: 80%;
+}
+
+.star10 {
+  top: 70%;
+  left: 20%;
+}
+
+.star11 {
+  top: 60%;
+  left: 95%;
+}
+
+.star12 {
+  top: 30%;
+  left: 70%;
+}
+
+.star13 {
+  top: 85%;
+  left: 25%;
+}
+
+.star14 {
+  top: 95%;
+  left: 15%;
+}
+
+.star15 {
+  top: 15%;
+  left: 65%;
+}
+
+.star16 {
+  top: 40%;
+  left: 60%;
+}
+
+.star17 {
+  top: 65%;
+  left: 70%;
+}
+
+.star18 {
+  top: 80%;
+  left: 80%;
+}
+
+.star19 {
+  top: 90%;
+  left: 30%;
+}
+
+.star20 {
+  top: 10%;
+  left: 40%;
+}
+
 .sea {
   position: relative;
   height: 20vh;
@@ -457,9 +587,9 @@ body {
 
 @-webkit-keyframes sky {
   0% {
-    background-color: #686868;
+    background-color: #0d0c53;
   }
-  15% {
+  20% {
     background-color: #d89090;
   }
   30% {
@@ -468,19 +598,19 @@ body {
   70% {
     background-color: #0d61d5;
   }
-  85% {
+  80% {
     background-color: #d89090;
   }
   100% {
-    background-color: #686868;
+    background-color: #0d0c53;
   }
 }
 
 @keyframes sky {
   0% {
-    background-color: #686868;
+    background-color: #0d0c53;
   }
-  15% {
+  20% {
     background-color: #d89090;
   }
   30% {
@@ -489,11 +619,11 @@ body {
   70% {
     background-color: #0d61d5;
   }
-  85% {
+  80% {
     background-color: #d89090;
   }
   100% {
-    background-color: #686868;
+    background-color: #0d0c53;
   }
 }
 
@@ -638,6 +768,52 @@ body {
   }
   to {
     left: 100%;
+  }
+}
+
+@-webkit-keyframes stars {
+  0% {
+    background-color: #ddd;
+    -webkit-box-shadow: 0 0 10px white;
+            box-shadow: 0 0 10px white;
+  }
+  20% {
+    background-color: transparent;
+    -webkit-box-shadow: 0 0 0px transparent;
+            box-shadow: 0 0 0px transparent;
+  }
+  80% {
+    background-color: transparent;
+    -webkit-box-shadow: 0 0 0px transparent;
+            box-shadow: 0 0 0px transparent;
+  }
+  100% {
+    background-color: #ddd;
+    -webkit-box-shadow: 0 0 10px white;
+            box-shadow: 0 0 10px white;
+  }
+}
+
+@keyframes stars {
+  0% {
+    background-color: #ddd;
+    -webkit-box-shadow: 0 0 10px white;
+            box-shadow: 0 0 10px white;
+  }
+  20% {
+    background-color: transparent;
+    -webkit-box-shadow: 0 0 0px transparent;
+            box-shadow: 0 0 0px transparent;
+  }
+  80% {
+    background-color: transparent;
+    -webkit-box-shadow: 0 0 0px transparent;
+            box-shadow: 0 0 0px transparent;
+  }
+  100% {
+    background-color: #ddd;
+    -webkit-box-shadow: 0 0 10px white;
+            box-shadow: 0 0 10px white;
   }
 }
 /*# sourceMappingURL=styles.css.map */
