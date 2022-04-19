@@ -546,6 +546,30 @@ body {
 	animation: wave20-move 16s linear infinite;
 }
 
+.wave21 {
+	top: 75%;
+	left: 80%;
+	animation: wave21-move 16s linear infinite;
+}
+
+.wave22 {
+	top: 15%;
+	left: 40%;
+	animation: wave22-move 16s linear infinite;
+}
+
+.wave23 {
+	top: 25%;
+	left: 50%;
+	animation: wave23-move 16s linear infinite;
+}
+
+.wave24 {
+	top: 35%;
+	left: 70%;
+	animation: wave24-move 16s linear infinite;
+}
+
 .beach {
 	position: relative;
 	height: 20vh;
@@ -821,7 +845,7 @@ body {
 	}
 
 	30% {
-		top: 10%;
+		top: -10%;
 	}
 
 	70% {
@@ -896,20 +920,20 @@ body {
 
 @keyframes wave7-move {
 	0% {
-		top: 45%;
+		top: -5%;
 		left: -50%;
 	}
 
 	30% {
-		top: 40%;
+		top: -10%;
 	}
 
 	70% {
-		top: 50%;
+		top: 0%;
 	}
 
 	100% {
-		top: 45%;
+		top: -5%;
 		left: 80%;
 	}
 }
@@ -936,28 +960,28 @@ body {
 
 @keyframes wave9-move {
 	0% {
-		top: 45%;
-		left: -50%;
+		top: -5%;
+		left: -70%;
 	}
 
 	30% {
-		top: 40%;
+		top: -10%;
 	}
 
 	70% {
-		top: 50%;
+		top: 0%;
 	}
 
 	100% {
-		top: 45%;
-		left: 80%;
+		top: -5%;
+		left: 40%;
 	}
 }
 
 @keyframes wave10-move {
 	0% {
 		top: 45%;
-		left: -50%;
+		left: -70%;
 	}
 
 	30% {
@@ -970,74 +994,74 @@ body {
 
 	100% {
 		top: 45%;
-		left: 80%;
+		left: 40%;
 	}
 }
 
 @keyframes wave11-move {
 	0% {
-		top: 45%;
-		left: -50%;
+		top: -5%;
+		left: 70%;
 	}
 
 	30% {
-		top: 40%;
+		top: -10%;
 	}
 
 	70% {
-		top: 50%;
+		top: 0%;
 	}
 
 	100% {
-		top: 45%;
-		left: 80%;
+		top: -5%;
+		left: 180%;
 	}
 }
 
 @keyframes wave12-move {
 	0% {
 		top: 45%;
-		left: -50%;
+		left: 70%;
 	}
 
 	30% {
-		top: 40%;
+		top: 50%;
 	}
 
 	70% {
-		top: 50%;
+		top: 40%;
 	}
 
 	100% {
 		top: 45%;
-		left: 80%;
+		left: 180%;
 	}
 }
 
 @keyframes wave13-move {
 	0% {
-		top: 45%;
-		left: -50%;
+		top: -5%;
+		left: -120%;
 	}
 
 	30% {
-		top: 40%;
+		top: -10%;
 	}
 
 	70% {
-		top: 50%;
+		top: 0%;
 	}
 
 	100% {
-		top: 45%;
-		left: 80%;
+		top: -5%;
+		left: 20%;
 	}
 }
 
 @keyframes wave14-move {
 	0% {
 		top: 45%;
-		left: -50%;
+		left: -120%;
 	}
 
 	30% {
@@ -1050,126 +1074,206 @@ body {
 
 	100% {
 		top: 45%;
-		left: 80%;
+		left: 20%;
 	}
 }
 
 @keyframes wave15-move {
 	0% {
-		top: 45%;
-		left: -50%;
+		top: 15%;
+		left: -30%;
 	}
 
 	30% {
-		top: 40%;
+		top: 10%;
 	}
 
 	70% {
-		top: 50%;
+		top: 20%;
 	}
 
 	100% {
-		top: 45%;
-		left: 80%;
+		top: 15%;
+		left: 100%;
 	}
 }
 
 @keyframes wave16-move {
 	0% {
-		top: 45%;
-		left: -50%;
+		top: 65%;
+		left: -30%;
 	}
 
 	30% {
-		top: 40%;
+		top: 70%;
 	}
 
 	70% {
-		top: 50%;
+		top: 60%;
 	}
 
 	100% {
-		top: 45%;
-		left: 80%;
+		top: 65%;
+		left: 100%;
 	}
 }
 
 @keyframes wave17-move {
 	0% {
-		top: 45%;
-		left: -50%;
+		top: 15%;
+		left: -60%;
 	}
 
 	30% {
-		top: 40%;
+		top: 10%;
 	}
 
 	70% {
-		top: 50%;
+		top: 20%;
 	}
 
 	100% {
-		top: 45%;
-		left: 80%;
+		top: 15%;
+		left: 60%;
 	}
 }
 
 @keyframes wave18-move {
 	0% {
-		top: 45%;
-		left: -50%;
+		top: 65%;
+		left: -60%;
 	}
 
 	30% {
-		top: 40%;
+		top: 70%;
 	}
 
 	70% {
-		top: 50%;
+		top: 60%;
 	}
 
 	100% {
-		top: 45%;
-		left: 80%;
+		top: 65%;
+		left: 60%;
 	}
 }
 
 @keyframes wave19-move {
 	0% {
-		top: 45%;
-		left: -50%;
+		top: 15%;
+		left: 50%;
 	}
 
 	30% {
-		top: 40%;
+		top: 10%;
 	}
 
 	70% {
-		top: 50%;
+		top: 20%;
 	}
 
 	100% {
-		top: 45%;
-		left: 80%;
+		top: 15%;
+		left: 160%;
 	}
 }
 
 @keyframes wave20-move {
 	0% {
-		top: 45%;
-		left: -50%;
+		top: 65%;
+		left: 50%;
 	}
 
 	30% {
-		top: 40%;
+		top: 70%;
 	}
 
 	70% {
-		top: 50%;
+		top: 60%;
 	}
 
 	100% {
-		top: 45%;
-		left: 80%;
+		top: 65%;
+		left: 160%;
+	}
+}
+
+@keyframes wave21-move {
+	0% {
+		top: 15%;
+		left: 15%;
+	}
+
+	30% {
+		top: 10%;
+	}
+
+	70% {
+		top: 20%;
+	}
+
+	100% {
+		top: 15%;
+		left: 130%;
+	}
+}
+
+@keyframes wave22-move {
+	0% {
+		top: 65%;
+		left: 15%;
+	}
+
+	30% {
+		top: 70%;
+	}
+
+	70% {
+		top: 60%;
+	}
+
+	100% {
+		top: 65%;
+		left: 130%;
+	}
+}
+
+@keyframes wave23-move {
+	0% {
+		top: 15%;
+		left: -150%;
+	}
+
+	30% {
+		top: 10%;
+	}
+
+	70% {
+		top: 20%;
+	}
+
+	100% {
+		top: 15%;
+		left: -20%;
+	}
+}
+
+@keyframes wave24-move {
+	0% {
+		top: 65%;
+		left: -150%;
+	}
+
+	30% {
+		top: 70%;
+	}
+
+	70% {
+		top: 60%;
+	}
+
+	100% {
+		top: 65%;
+		left: -20%;
 	}
 }
