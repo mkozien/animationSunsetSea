@@ -16,6 +16,7 @@ body {
   background-color: #0d61d5;
   -webkit-animation: sky 16s linear infinite;
           animation: sky 16s linear infinite;
+  overflow: hidden;
 }
 
 .sun {
@@ -419,6 +420,8 @@ body {
   height: 20vh;
   width: 100%;
   background-color: #c2dfff;
+  -webkit-animation: sea 16s linear infinite;
+          animation: sea 16s linear infinite;
 }
 
 .boat {
@@ -427,6 +430,7 @@ body {
   left: 50%;
   height: 300px;
   width: 400px;
+  z-index: 4;
   -webkit-animation: boat 16s linear infinite;
           animation: boat 16s linear infinite;
 }
@@ -506,169 +510,181 @@ body {
 .wave1 {
   top: -10%;
   left: 10%;
-  -webkit-animation: wave1-move 16s linear infinite;
-          animation: wave1-move 16s linear infinite;
+  -webkit-animation: wave1-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave1-move 16s linear infinite, sea 16s linear infinite;
 }
 
 .wave2 {
   top: -15%;
   left: 40%;
-  -webkit-animation: wave2-move 16s linear infinite;
-          animation: wave2-move 16s linear infinite;
+  -webkit-animation: wave2-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave2-move 16s linear infinite, sea 16s linear infinite;
+  z-index: 6;
 }
 
 .wave3 {
   top: 30%;
   left: 5%;
-  -webkit-animation: wave3-move 16s linear infinite;
-          animation: wave3-move 16s linear infinite;
+  -webkit-animation: wave3-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave3-move 16s linear infinite, sea 16s linear infinite;
 }
 
 .wave4 {
   top: -10%;
   left: 60%;
-  -webkit-animation: wave4-move 16s linear infinite;
-          animation: wave4-move 16s linear infinite;
+  -webkit-animation: wave4-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave4-move 16s linear infinite, sea 16s linear infinite;
+  z-index: 6;
 }
 
 .wave5 {
   top: -15%;
   left: 80%;
-  -webkit-animation: wave5-move 16s linear infinite;
-          animation: wave5-move 16s linear infinite;
+  -webkit-animation: wave5-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave5-move 16s linear infinite, sea 16s linear infinite;
 }
 
 .wave6 {
   top: -10%;
   left: 25%;
-  -webkit-animation: wave6-move 16s linear infinite;
-          animation: wave6-move 16s linear infinite;
+  -webkit-animation: wave6-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave6-move 16s linear infinite, sea 16s linear infinite;
+  z-index: 6;
 }
 
 .wave7 {
   top: 20%;
   left: 20%;
-  -webkit-animation: wave7-move 16s linear infinite;
-          animation: wave7-move 16s linear infinite;
+  -webkit-animation: wave7-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave7-move 16s linear infinite, sea 16s linear infinite;
 }
 
 .wave8 {
   top: 40%;
   left: 50%;
-  -webkit-animation: wave8-move 16s linear infinite;
-          animation: wave8-move 16s linear infinite;
+  -webkit-animation: wave8-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave8-move 16s linear infinite, sea 16s linear infinite;
+  z-index: 6;
 }
 
 .wave9 {
   top: 60%;
   left: 80%;
-  -webkit-animation: wave9-move 16s linear infinite;
-          animation: wave9-move 16s linear infinite;
+  -webkit-animation: wave9-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave9-move 16s linear infinite, sea 16s linear infinite;
 }
 
 .wave10 {
   top: -15%;
   left: 50%;
-  -webkit-animation: wave10-move 16s linear infinite;
-          animation: wave10-move 16s linear infinite;
+  -webkit-animation: wave10-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave10-move 16s linear infinite, sea 16s linear infinite;
+  z-index: 6;
 }
 
 .wave11 {
   top: 80%;
   left: 55%;
-  -webkit-animation: wave11-move 16s linear infinite;
-          animation: wave11-move 16s linear infinite;
+  -webkit-animation: wave11-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave11-move 16s linear infinite, sea 16s linear infinite;
 }
 
 .wave12 {
   top: 80%;
   left: 5%;
-  -webkit-animation: wave12-move 16s linear infinite;
-          animation: wave12-move 16s linear infinite;
+  -webkit-animation: wave12-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave12-move 16s linear infinite, sea 16s linear infinite;
+  z-index: 6;
 }
 
 .wave13 {
   top: 60%;
   left: 40%;
-  -webkit-animation: wave13-move 16s linear infinite;
-          animation: wave13-move 16s linear infinite;
+  -webkit-animation: wave13-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave13-move 16s linear infinite, sea 16s linear infinite;
 }
 
 .wave14 {
   top: 10%;
   left: 85%;
-  -webkit-animation: wave14-move 16s linear infinite;
-          animation: wave14-move 16s linear infinite;
+  -webkit-animation: wave14-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave14-move 16s linear infinite, sea 16s linear infinite;
+  z-index: 6;
 }
 
 .wave15 {
   top: 20%;
   left: 65%;
-  -webkit-animation: wave15-move 16s linear infinite;
-          animation: wave15-move 16s linear infinite;
+  -webkit-animation: wave15-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave15-move 16s linear infinite, sea 16s linear infinite;
 }
 
 .wave16 {
   top: 25%;
   left: 40%;
-  -webkit-animation: wave16-move 16s linear infinite;
-          animation: wave16-move 16s linear infinite;
+  -webkit-animation: wave16-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave16-move 16s linear infinite, sea 16s linear infinite;
+  z-index: 6;
 }
 
 .wave17 {
   top: 45%;
   left: 70%;
-  -webkit-animation: wave17-move 16s linear infinite;
-          animation: wave17-move 16s linear infinite;
+  -webkit-animation: wave17-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave17-move 16s linear infinite, sea 16s linear infinite;
 }
 
 .wave18 {
   top: 70%;
   left: 20%;
-  -webkit-animation: wave18-move 16s linear infinite;
-          animation: wave18-move 16s linear infinite;
+  -webkit-animation: wave18-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave18-move 16s linear infinite, sea 16s linear infinite;
+  z-index: 6;
 }
 
 .wave19 {
   top: 50%;
   left: 30%;
-  -webkit-animation: wave19-move 16s linear infinite;
-          animation: wave19-move 16s linear infinite;
+  -webkit-animation: wave19-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave19-move 16s linear infinite, sea 16s linear infinite;
 }
 
 .wave20 {
   top: 65%;
   left: 90%;
-  -webkit-animation: wave20-move 16s linear infinite;
-          animation: wave20-move 16s linear infinite;
+  -webkit-animation: wave20-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave20-move 16s linear infinite, sea 16s linear infinite;
+  z-index: 6;
 }
 
 .wave21 {
   top: 75%;
   left: 80%;
-  -webkit-animation: wave21-move 16s linear infinite;
-          animation: wave21-move 16s linear infinite;
+  -webkit-animation: wave21-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave21-move 16s linear infinite, sea 16s linear infinite;
 }
 
 .wave22 {
   top: 15%;
   left: 40%;
-  -webkit-animation: wave22-move 16s linear infinite;
-          animation: wave22-move 16s linear infinite;
+  -webkit-animation: wave22-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave22-move 16s linear infinite, sea 16s linear infinite;
+  z-index: 6;
 }
 
 .wave23 {
   top: 25%;
   left: 50%;
-  -webkit-animation: wave23-move 16s linear infinite;
-          animation: wave23-move 16s linear infinite;
+  -webkit-animation: wave23-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave23-move 16s linear infinite, sea 16s linear infinite;
 }
 
 .wave24 {
   top: 35%;
   left: 70%;
-  -webkit-animation: wave24-move 16s linear infinite;
-          animation: wave24-move 16s linear infinite;
+  -webkit-animation: wave24-move 16s linear infinite, sea 16s linear infinite;
+          animation: wave24-move 16s linear infinite, sea 16s linear infinite;
+  z-index: 6;
 }
 
 .beach {
@@ -676,6 +692,7 @@ body {
   height: 20vh;
   width: 100%;
   background-color: #e5c050;
+  z-index: 8;
 }
 
 .ground {
@@ -683,6 +700,7 @@ body {
   height: 10vh;
   width: 100%;
   background-color: #533b24;
+  z-index: 10;
 }
 
 @-webkit-keyframes sun {
@@ -1885,35 +1903,65 @@ body {
 
 @-webkit-keyframes boat {
   0% {
-    top: -30%;
+    top: -40%;
     left: -20%;
   }
   30% {
-    top: -25%;
+    top: -30%;
   }
   70% {
-    top: -35%;
+    top: -50%;
   }
   100% {
-    top: -30%;
+    top: -40%;
     left: 120%;
   }
 }
 
 @keyframes boat {
   0% {
-    top: -30%;
+    top: -40%;
     left: -20%;
   }
   30% {
-    top: -25%;
+    top: -30%;
   }
   70% {
-    top: -35%;
+    top: -50%;
   }
   100% {
-    top: -30%;
+    top: -40%;
     left: 120%;
+  }
+}
+
+@-webkit-keyframes sea {
+  0% {
+    background-color: #16434e;
+  }
+  30% {
+    background-color: #c2dfff;
+  }
+  70% {
+    background-color: #c2dfff;
+  }
+  100% {
+    background-color: #16434e;
+  }
+}
+
+@keyframes sea {
+  0% {
+    background-color: #16434e;
+  }
+  30% {
+    background-color: #c2dfff;
+  }
+  70% {
+    background-color: #c2dfff;
+  }
+  100% {
+    background-color: #16434e;
   }
 }
 /*# sourceMappingURL=styles.css.map */
