@@ -30,6 +30,21 @@ body {
           animation: sun 16s linear infinite;
 }
 
+.moon {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, right top, left top, from(#020024), color-stop(56%, #acb5b6), to(#9babb3));
+  background: linear-gradient(270deg, #020024 0%, #acb5b6 56%, #9babb3 100%);
+  -webkit-box-shadow: 0 0 200px white;
+          box-shadow: 0 0 200px white;
+  -webkit-animation: moon 16s linear infinite;
+          animation: moon 16s linear infinite;
+}
+
 .cloud {
   position: absolute;
   background-color: #ddd;
@@ -351,6 +366,48 @@ body {
   }
   100% {
     top: 150%;
+  }
+}
+
+@-webkit-keyframes moon {
+  0% {
+    top: 10%;
+  }
+  15% {
+    top: 90%;
+  }
+  30% {
+    top: 150%;
+  }
+  70% {
+    top: 150%;
+  }
+  85% {
+    top: 90%;
+  }
+  100% {
+    top: 10%;
+  }
+}
+
+@keyframes moon {
+  0% {
+    top: 10%;
+  }
+  15% {
+    top: 90%;
+  }
+  30% {
+    top: 150%;
+  }
+  70% {
+    top: 150%;
+  }
+  85% {
+    top: 90%;
+  }
+  100% {
+    top: 10%;
   }
 }
 

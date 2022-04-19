@@ -27,6 +27,18 @@ body {
 	animation: sun 16s linear infinite;
 }
 
+.moon {
+	position: absolute;
+	top: 10%;
+	left: 70%;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(172,181,182,1) 56%, rgba(155,171,179,1) 100%);
+	box-shadow: 0 0 200px rgb(255, 255, 255);
+	animation: moon 16s linear infinite;
+}
+
 .cloud {
 	position: absolute;
 	background-color: #ddd;
@@ -307,6 +319,32 @@ body {
 
 	100% {
 		top: 150%;
+	}
+}
+
+@keyframes moon {
+	0% {
+		top: 10%;
+	}
+
+	15% {
+		top: 90%;
+	}
+
+	30% {
+		top: 150%;
+	}
+
+	70% {
+		top: 150%;
+	}
+
+	85% {
+		top: 90%;
+	}
+
+	100% {
+		top: 10%;
 	}
 }
 
