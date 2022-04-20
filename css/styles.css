@@ -14,8 +14,8 @@ body {
   height: 70vh;
   width: 100%;
   background-color: #0d61d5;
-  -webkit-animation: sky 16s linear infinite;
-          animation: sky 16s linear infinite;
+  -webkit-animation: sky 20s linear infinite;
+          animation: sky 20s linear infinite;
   overflow: hidden;
 }
 
@@ -29,8 +29,8 @@ body {
   background-color: gold;
   -webkit-box-shadow: 0 0 200px gold;
           box-shadow: 0 0 200px gold;
-  -webkit-animation: sun 16s linear infinite;
-          animation: sun 16s linear infinite;
+  -webkit-animation: sun 20s linear infinite;
+          animation: sun 20s linear infinite;
 }
 
 .moon {
@@ -43,15 +43,15 @@ body {
   background: radial-gradient(circle, #9babb3 67%, #acb5b6 82%, #020024 100%);
   -webkit-box-shadow: 0 0 200px white;
           box-shadow: 0 0 200px white;
-  -webkit-animation: moon 16s linear infinite;
-          animation: moon 16s linear infinite;
+  -webkit-animation: moon 20s linear infinite;
+          animation: moon 20s linear infinite;
 }
 
 .cloud {
   position: absolute;
   background-color: #ddd;
-  -webkit-animation: cloud 16s linear infinite;
-          animation: cloud 16s linear infinite;
+  -webkit-animation: cloud 20s linear infinite;
+          animation: cloud 20s linear infinite;
 }
 
 .cloud1 {
@@ -60,8 +60,8 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  -webkit-animation: cloud 16s linear infinite, cloud1-move 10s linear infinite;
-          animation: cloud 16s linear infinite, cloud1-move 10s linear infinite;
+  -webkit-animation: cloud 20s linear infinite, cloud1-move 25s linear infinite;
+          animation: cloud 20s linear infinite, cloud1-move 25s linear infinite;
 }
 
 .circle-left {
@@ -92,8 +92,8 @@ body {
   width: 200px;
   height: 150px;
   border-radius: 50%;
-  -webkit-animation: cloud 16s linear infinite, cloud2-move 10s linear infinite;
-          animation: cloud 16s linear infinite, cloud2-move 10s linear infinite;
+  -webkit-animation: cloud 20s linear infinite, cloud2-move 25s linear infinite;
+          animation: cloud 20s linear infinite, cloud2-move 25s linear infinite;
 }
 
 .circle-left2 {
@@ -126,8 +126,8 @@ body {
   width: 200px;
   height: 150px;
   border-radius: 50%;
-  -webkit-animation: cloud 16s linear infinite, cloud3-move 12s linear infinite;
-          animation: cloud 16s linear infinite, cloud3-move 12s linear infinite;
+  -webkit-animation: cloud 20s linear infinite, cloud3-move 20s linear infinite;
+          animation: cloud 20s linear infinite, cloud3-move 20s linear infinite;
 }
 
 .circle-left3 {
@@ -152,8 +152,8 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  -webkit-animation: cloud 16s linear infinite, cloud4-move 10s linear infinite;
-          animation: cloud 16s linear infinite, cloud4-move 10s linear infinite;
+  -webkit-animation: cloud 20s linear infinite, cloud4-move 25s linear infinite;
+          animation: cloud 20s linear infinite, cloud4-move 25s linear infinite;
 }
 
 .circle-left4 {
@@ -178,8 +178,8 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  -webkit-animation: cloud 16s linear infinite, cloud5-move 16s linear infinite;
-          animation: cloud 16s linear infinite, cloud5-move 16s linear infinite;
+  -webkit-animation: cloud 20s linear infinite, cloud5-move 20s linear infinite;
+          animation: cloud 20s linear infinite, cloud5-move 20s linear infinite;
 }
 
 .circle-left5 {
@@ -204,8 +204,8 @@ body {
   width: 200px;
   height: 300px;
   border-radius: 50%;
-  -webkit-animation: cloud 16s linear infinite, cloud6-move 18s linear infinite;
-          animation: cloud 16s linear infinite, cloud6-move 18s linear infinite;
+  -webkit-animation: cloud 20s linear infinite, cloud6-move 24s linear infinite;
+          animation: cloud 20s linear infinite, cloud6-move 24s linear infinite;
 }
 
 .circle-left6-long {
@@ -238,8 +238,8 @@ body {
   width: 300px;
   height: 200px;
   border-radius: 50%;
-  -webkit-animation: cloud 16s linear infinite, cloud7-move 18s linear infinite;
-          animation: cloud 16s linear infinite, cloud7-move 18s linear infinite;
+  -webkit-animation: cloud 20s linear infinite, cloud7-move 24s linear infinite;
+          animation: cloud 20s linear infinite, cloud7-move 24s linear infinite;
 }
 
 .circle-left7 {
@@ -264,8 +264,8 @@ body {
   width: 550px;
   height: 400px;
   border-radius: 50%;
-  -webkit-animation: cloud 16s linear infinite, cloud8-move 20s linear infinite;
-          animation: cloud 16s linear infinite, cloud8-move 20s linear infinite;
+  -webkit-animation: cloud 20s linear infinite, cloud8-move 20s linear infinite;
+          animation: cloud 20s linear infinite, cloud8-move 20s linear infinite;
 }
 
 .circle-left8 {
@@ -296,8 +296,8 @@ body {
   -webkit-box-shadow: 0 0 10px white;
           box-shadow: 0 0 10px white;
   border-radius: 50%;
-  -webkit-animation: stars 16s linear infinite;
-          animation: stars 16s linear infinite;
+  -webkit-animation: stars 20s linear infinite;
+          animation: stars 20s linear infinite;
 }
 
 .big-star {
@@ -420,8 +420,8 @@ body {
   height: 30vh;
   width: 100%;
   background-color: #c2dfff;
-  -webkit-animation: sea 16s linear infinite;
-          animation: sea 16s linear infinite;
+  -webkit-animation: sea 20s linear infinite;
+          animation: sea 20s linear infinite;
 }
 
 .boat {
@@ -431,8 +431,8 @@ body {
   height: 300px;
   width: 400px;
   z-index: 4;
-  -webkit-animation: boat 16s linear infinite;
-          animation: boat 16s linear infinite;
+  -webkit-animation: boat 20s linear infinite;
+          animation: boat 20s linear infinite;
 }
 
 .upper-part {
@@ -510,180 +510,180 @@ body {
 .wave1 {
   top: -10%;
   left: 10%;
-  -webkit-animation: wave1-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave1-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave1-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave1-move 25s linear infinite, sea 20s linear infinite;
 }
 
 .wave2 {
   top: -15%;
   left: 40%;
-  -webkit-animation: wave2-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave2-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave2-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave2-move 25s linear infinite, sea 20s linear infinite;
   z-index: 6;
 }
 
 .wave3 {
   top: 30%;
   left: 5%;
-  -webkit-animation: wave3-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave3-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave3-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave3-move 25s linear infinite, sea 20s linear infinite;
 }
 
 .wave4 {
   top: -10%;
   left: 60%;
-  -webkit-animation: wave4-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave4-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave4-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave4-move 25s linear infinite, sea 20s linear infinite;
   z-index: 6;
 }
 
 .wave5 {
   top: -15%;
   left: 80%;
-  -webkit-animation: wave5-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave5-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave5-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave5-move 25s linear infinite, sea 20s linear infinite;
 }
 
 .wave6 {
   top: -10%;
   left: 25%;
-  -webkit-animation: wave6-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave6-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave6-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave6-move 25s linear infinite, sea 20s linear infinite;
   z-index: 6;
 }
 
 .wave7 {
   top: 20%;
   left: 20%;
-  -webkit-animation: wave7-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave7-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave7-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave7-move 25s linear infinite, sea 20s linear infinite;
 }
 
 .wave8 {
   top: 40%;
   left: 50%;
-  -webkit-animation: wave8-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave8-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave8-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave8-move 25s linear infinite, sea 20s linear infinite;
   z-index: 6;
 }
 
 .wave9 {
   top: 60%;
   left: 80%;
-  -webkit-animation: wave9-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave9-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave9-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave9-move 25s linear infinite, sea 20s linear infinite;
 }
 
 .wave10 {
   top: -15%;
   left: 50%;
-  -webkit-animation: wave10-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave10-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave10-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave10-move 25s linear infinite, sea 20s linear infinite;
   z-index: 6;
 }
 
 .wave11 {
   top: 80%;
   left: 55%;
-  -webkit-animation: wave11-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave11-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave11-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave11-move 25s linear infinite, sea 20s linear infinite;
 }
 
 .wave12 {
   top: 80%;
   left: 5%;
-  -webkit-animation: wave12-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave12-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave12-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave12-move 25s linear infinite, sea 20s linear infinite;
   z-index: 6;
 }
 
 .wave13 {
   top: 60%;
   left: 40%;
-  -webkit-animation: wave13-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave13-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave13-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave13-move 25s linear infinite, sea 20s linear infinite;
 }
 
 .wave14 {
   top: 10%;
   left: 85%;
-  -webkit-animation: wave14-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave14-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave14-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave14-move 25s linear infinite, sea 20s linear infinite;
   z-index: 6;
 }
 
 .wave15 {
   top: 20%;
   left: 65%;
-  -webkit-animation: wave15-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave15-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave15-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave15-move 25s linear infinite, sea 20s linear infinite;
 }
 
 .wave16 {
   top: 25%;
   left: 40%;
-  -webkit-animation: wave16-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave16-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave16-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave16-move 25s linear infinite, sea 20s linear infinite;
   z-index: 6;
 }
 
 .wave17 {
   top: 45%;
   left: 70%;
-  -webkit-animation: wave17-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave17-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave17-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave17-move 25s linear infinite, sea 20s linear infinite;
 }
 
 .wave18 {
   top: 70%;
   left: 20%;
-  -webkit-animation: wave18-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave18-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave18-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave18-move 25s linear infinite, sea 20s linear infinite;
   z-index: 6;
 }
 
 .wave19 {
   top: 50%;
   left: 30%;
-  -webkit-animation: wave19-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave19-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave19-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave19-move 25s linear infinite, sea 20s linear infinite;
 }
 
 .wave20 {
   top: 65%;
   left: 90%;
-  -webkit-animation: wave20-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave20-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave20-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave20-move 25s linear infinite, sea 20s linear infinite;
   z-index: 6;
 }
 
 .wave21 {
   top: 75%;
   left: 80%;
-  -webkit-animation: wave21-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave21-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave21-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave21-move 25s linear infinite, sea 20s linear infinite;
 }
 
 .wave22 {
   top: 15%;
   left: 40%;
-  -webkit-animation: wave22-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave22-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave22-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave22-move 25s linear infinite, sea 20s linear infinite;
   z-index: 6;
 }
 
 .wave23 {
   top: 25%;
   left: 50%;
-  -webkit-animation: wave23-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave23-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave23-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave23-move 25s linear infinite, sea 20s linear infinite;
 }
 
 .wave24 {
   top: 35%;
   left: 70%;
-  -webkit-animation: wave24-move 16s linear infinite, sea 16s linear infinite;
-          animation: wave24-move 16s linear infinite, sea 16s linear infinite;
+  -webkit-animation: wave24-move 25s linear infinite, sea 20s linear infinite;
+          animation: wave24-move 25s linear infinite, sea 20s linear infinite;
   z-index: 6;
 }
 
@@ -1082,7 +1082,7 @@ body {
   }
   100% {
     top: -5%;
-    left: 120%;
+    left: 280%;
   }
 }
 
@@ -1099,7 +1099,7 @@ body {
   }
   100% {
     top: -5%;
-    left: 120%;
+    left: 280%;
   }
 }
 
@@ -1116,7 +1116,7 @@ body {
   }
   100% {
     top: 45%;
-    left: 120%;
+    left: 280%;
   }
 }
 
@@ -1133,82 +1133,82 @@ body {
   }
   100% {
     top: 45%;
-    left: 120%;
+    left: 280%;
   }
 }
 
 @-webkit-keyframes wave3-move {
   0% {
-    top: -5%;
-    left: -50%;
+    top: 15%;
+    left: -25%;
   }
   30% {
-    top: -10%;
+    top: 10%;
   }
   70% {
-    top: 0%;
+    top: 20%;
   }
   100% {
-    top: -5%;
-    left: 80%;
+    top: 15%;
+    left: 265%;
   }
 }
 
 @keyframes wave3-move {
   0% {
-    top: -5%;
-    left: -50%;
+    top: 15%;
+    left: -25%;
   }
   30% {
-    top: -10%;
+    top: 10%;
   }
   70% {
-    top: 0%;
+    top: 20%;
   }
   100% {
-    top: -5%;
-    left: 80%;
+    top: 15%;
+    left: 265%;
   }
 }
 
 @-webkit-keyframes wave4-move {
   0% {
-    top: 45%;
-    left: -50%;
+    top: 65%;
+    left: -25%;
   }
   30% {
-    top: 40%;
+    top: 60%;
   }
   70% {
-    top: 50%;
+    top: 70%;
   }
   100% {
-    top: 45%;
-    left: 80%;
+    top: 65%;
+    left: 265%;
   }
 }
 
 @keyframes wave4-move {
   0% {
-    top: 45%;
-    left: -50%;
+    top: 65%;
+    left: -25%;
   }
   30% {
-    top: 40%;
+    top: 60%;
   }
   70% {
-    top: 50%;
+    top: 70%;
   }
   100% {
-    top: 45%;
-    left: 80%;
+    top: 65%;
+    left: 265%;
   }
 }
 
 @-webkit-keyframes wave5-move {
   0% {
     top: -5%;
-    left: 30%;
+    left: -40%;
   }
   30% {
     top: -10%;
@@ -1218,14 +1218,14 @@ body {
   }
   100% {
     top: -5%;
-    left: 150%;
+    left: 250%;
   }
 }
 
 @keyframes wave5-move {
   0% {
     top: -5%;
-    left: 30%;
+    left: -40%;
   }
   30% {
     top: -10%;
@@ -1235,14 +1235,14 @@ body {
   }
   100% {
     top: -5%;
-    left: 150%;
+    left: 250%;
   }
 }
 
 @-webkit-keyframes wave6-move {
   0% {
     top: 45%;
-    left: 30%;
+    left: -40%;
   }
   30% {
     top: 40%;
@@ -1252,14 +1252,14 @@ body {
   }
   100% {
     top: 45%;
-    left: 150%;
+    left: 250%;
   }
 }
 
 @keyframes wave6-move {
   0% {
     top: 45%;
-    left: 30%;
+    left: -40%;
   }
   30% {
     top: 40%;
@@ -1269,75 +1269,75 @@ body {
   }
   100% {
     top: 45%;
-    left: 150%;
+    left: 250%;
   }
 }
 
 @-webkit-keyframes wave7-move {
   0% {
-    top: -5%;
-    left: -50%;
+    top: 15%;
+    left: -55%;
   }
   30% {
-    top: -10%;
+    top: 10%;
   }
   70% {
-    top: 0%;
+    top: 20%;
   }
   100% {
-    top: -5%;
-    left: 80%;
+    top: 15%;
+    left: 235%;
   }
 }
 
 @keyframes wave7-move {
   0% {
-    top: -5%;
-    left: -50%;
+    top: 15%;
+    left: -55%;
   }
   30% {
-    top: -10%;
+    top: 10%;
   }
   70% {
-    top: 0%;
+    top: 20%;
   }
   100% {
-    top: -5%;
-    left: 80%;
+    top: 15%;
+    left: 235%;
   }
 }
 
 @-webkit-keyframes wave8-move {
   0% {
-    top: 45%;
-    left: -50%;
+    top: 65%;
+    left: -55%;
   }
   30% {
-    top: 40%;
+    top: 60%;
   }
   70% {
-    top: 50%;
+    top: 70%;
   }
   100% {
-    top: 45%;
-    left: 80%;
+    top: 65%;
+    left: 235%;
   }
 }
 
 @keyframes wave8-move {
   0% {
-    top: 45%;
-    left: -50%;
+    top: 65%;
+    left: -55%;
   }
   30% {
-    top: 40%;
+    top: 60%;
   }
   70% {
-    top: 50%;
+    top: 70%;
   }
   100% {
-    top: 45%;
-    left: 80%;
+    top: 65%;
+    left: 235%;
   }
 }
 
@@ -1354,7 +1354,7 @@ body {
   }
   100% {
     top: -5%;
-    left: 40%;
+    left: 220%;
   }
 }
 
@@ -1371,7 +1371,7 @@ body {
   }
   100% {
     top: -5%;
-    left: 40%;
+    left: 220%;
   }
 }
 
@@ -1388,7 +1388,7 @@ body {
   }
   100% {
     top: 45%;
-    left: 40%;
+    left: 220%;
   }
 }
 
@@ -1405,82 +1405,82 @@ body {
   }
   100% {
     top: 45%;
-    left: 40%;
+    left: 220%;
   }
 }
 
 @-webkit-keyframes wave11-move {
   0% {
-    top: -5%;
-    left: 70%;
+    top: 15%;
+    left: -85%;
   }
   30% {
-    top: -10%;
+    top: 10%;
   }
   70% {
-    top: 0%;
+    top: 20%;
   }
   100% {
-    top: -5%;
-    left: 180%;
+    top: 15%;
+    left: 205%;
   }
 }
 
 @keyframes wave11-move {
   0% {
-    top: -5%;
-    left: 70%;
+    top: 15%;
+    left: -85%;
   }
   30% {
-    top: -10%;
+    top: 10%;
   }
   70% {
-    top: 0%;
+    top: 20%;
   }
   100% {
-    top: -5%;
-    left: 180%;
+    top: 15%;
+    left: 205%;
   }
 }
 
 @-webkit-keyframes wave12-move {
   0% {
-    top: 45%;
-    left: 70%;
+    top: 65%;
+    left: -85%;
   }
   30% {
-    top: 50%;
+    top: 60%;
   }
   70% {
-    top: 40%;
+    top: 70%;
   }
   100% {
-    top: 45%;
-    left: 180%;
+    top: 65%;
+    left: 205%;
   }
 }
 
 @keyframes wave12-move {
   0% {
-    top: 45%;
-    left: 70%;
+    top: 65%;
+    left: -85%;
   }
   30% {
-    top: 50%;
+    top: 60%;
   }
   70% {
-    top: 40%;
+    top: 70%;
   }
   100% {
-    top: 45%;
-    left: 180%;
+    top: 65%;
+    left: 205%;
   }
 }
 
 @-webkit-keyframes wave13-move {
   0% {
     top: -5%;
-    left: -120%;
+    left: -100%;
   }
   30% {
     top: -10%;
@@ -1490,14 +1490,14 @@ body {
   }
   100% {
     top: -5%;
-    left: 20%;
+    left: 190%;
   }
 }
 
 @keyframes wave13-move {
   0% {
     top: -5%;
-    left: -120%;
+    left: -100%;
   }
   30% {
     top: -10%;
@@ -1507,14 +1507,14 @@ body {
   }
   100% {
     top: -5%;
-    left: 20%;
+    left: 190%;
   }
 }
 
 @-webkit-keyframes wave14-move {
   0% {
     top: 45%;
-    left: -120%;
+    left: -100%;
   }
   30% {
     top: 40%;
@@ -1524,14 +1524,14 @@ body {
   }
   100% {
     top: 45%;
-    left: 20%;
+    left: 190%;
   }
 }
 
 @keyframes wave14-move {
   0% {
     top: 45%;
-    left: -120%;
+    left: -100%;
   }
   30% {
     top: 40%;
@@ -1541,14 +1541,14 @@ body {
   }
   100% {
     top: 45%;
-    left: 20%;
+    left: 190%;
   }
 }
 
 @-webkit-keyframes wave15-move {
   0% {
     top: 15%;
-    left: -30%;
+    left: -115%;
   }
   30% {
     top: 10%;
@@ -1558,14 +1558,14 @@ body {
   }
   100% {
     top: 15%;
-    left: 100%;
+    left: 175%;
   }
 }
 
 @keyframes wave15-move {
   0% {
     top: 15%;
-    left: -30%;
+    left: -115%;
   }
   30% {
     top: 10%;
@@ -1575,116 +1575,116 @@ body {
   }
   100% {
     top: 15%;
-    left: 100%;
+    left: 175%;
   }
 }
 
 @-webkit-keyframes wave16-move {
   0% {
     top: 65%;
-    left: -30%;
+    left: -115%;
   }
   30% {
-    top: 70%;
+    top: 60%;
   }
   70% {
-    top: 60%;
+    top: 70%;
   }
   100% {
     top: 65%;
-    left: 100%;
+    left: 175%;
   }
 }
 
 @keyframes wave16-move {
   0% {
     top: 65%;
-    left: -30%;
+    left: -115%;
   }
   30% {
-    top: 70%;
+    top: 60%;
   }
   70% {
-    top: 60%;
+    top: 70%;
   }
   100% {
     top: 65%;
-    left: 100%;
+    left: 175%;
   }
 }
 
 @-webkit-keyframes wave17-move {
   0% {
-    top: 15%;
-    left: -60%;
+    top: -5%;
+    left: -130%;
   }
   30% {
-    top: 10%;
+    top: -10%;
   }
   70% {
-    top: 20%;
+    top: 0%;
   }
   100% {
-    top: 15%;
-    left: 60%;
+    top: -5%;
+    left: 160%;
   }
 }
 
 @keyframes wave17-move {
   0% {
-    top: 15%;
-    left: -60%;
+    top: -5%;
+    left: -130%;
   }
   30% {
-    top: 10%;
+    top: -10%;
   }
   70% {
-    top: 20%;
+    top: 0%;
   }
   100% {
-    top: 15%;
-    left: 60%;
+    top: -5%;
+    left: 160%;
   }
 }
 
 @-webkit-keyframes wave18-move {
   0% {
-    top: 65%;
-    left: -60%;
+    top: 45%;
+    left: -130%;
   }
   30% {
-    top: 70%;
+    top: 40%;
   }
   70% {
-    top: 60%;
+    top: 50%;
   }
   100% {
-    top: 65%;
-    left: 60%;
+    top: 45%;
+    left: 160%;
   }
 }
 
 @keyframes wave18-move {
   0% {
-    top: 65%;
-    left: -60%;
+    top: 45%;
+    left: -130%;
   }
   30% {
-    top: 70%;
+    top: 40%;
   }
   70% {
-    top: 60%;
+    top: 50%;
   }
   100% {
-    top: 65%;
-    left: 60%;
+    top: 45%;
+    left: 160%;
   }
 }
 
 @-webkit-keyframes wave19-move {
   0% {
     top: 15%;
-    left: 50%;
+    left: -145%;
   }
   30% {
     top: 10%;
@@ -1694,14 +1694,14 @@ body {
   }
   100% {
     top: 15%;
-    left: 160%;
+    left: 145%;
   }
 }
 
 @keyframes wave19-move {
   0% {
     top: 15%;
-    left: 50%;
+    left: -145%;
   }
   30% {
     top: 10%;
@@ -1711,108 +1711,108 @@ body {
   }
   100% {
     top: 15%;
-    left: 160%;
+    left: 145%;
   }
 }
 
 @-webkit-keyframes wave20-move {
   0% {
     top: 65%;
-    left: 50%;
+    left: -145%;
   }
   30% {
-    top: 70%;
+    top: 60%;
   }
   70% {
-    top: 60%;
+    top: 70%;
   }
   100% {
     top: 65%;
-    left: 160%;
+    left: 145%;
   }
 }
 
 @keyframes wave20-move {
   0% {
     top: 65%;
-    left: 50%;
+    left: -145%;
   }
   30% {
-    top: 70%;
+    top: 60%;
   }
   70% {
-    top: 60%;
+    top: 70%;
   }
   100% {
     top: 65%;
-    left: 160%;
+    left: 145%;
   }
 }
 
 @-webkit-keyframes wave21-move {
   0% {
-    top: 15%;
-    left: 15%;
+    top: -5%;
+    left: -160%;
   }
   30% {
-    top: 10%;
+    top: -10%;
   }
   70% {
-    top: 20%;
+    top: 0%;
   }
   100% {
-    top: 15%;
+    top: -5%;
     left: 130%;
   }
 }
 
 @keyframes wave21-move {
   0% {
-    top: 15%;
-    left: 15%;
+    top: -5%;
+    left: -160%;
   }
   30% {
-    top: 10%;
+    top: -10%;
   }
   70% {
-    top: 20%;
+    top: 0%;
   }
   100% {
-    top: 15%;
+    top: -5%;
     left: 130%;
   }
 }
 
 @-webkit-keyframes wave22-move {
   0% {
-    top: 65%;
-    left: 15%;
+    top: 45%;
+    left: -160%;
   }
   30% {
-    top: 70%;
+    top: 40%;
   }
   70% {
-    top: 60%;
+    top: 50%;
   }
   100% {
-    top: 65%;
+    top: 45%;
     left: 130%;
   }
 }
 
 @keyframes wave22-move {
   0% {
-    top: 65%;
-    left: 15%;
+    top: 45%;
+    left: -160%;
   }
   30% {
-    top: 70%;
+    top: 40%;
   }
   70% {
-    top: 60%;
+    top: 50%;
   }
   100% {
-    top: 65%;
+    top: 45%;
     left: 130%;
   }
 }
@@ -1820,7 +1820,7 @@ body {
 @-webkit-keyframes wave23-move {
   0% {
     top: 15%;
-    left: -150%;
+    left: -175%;
   }
   30% {
     top: 10%;
@@ -1830,14 +1830,14 @@ body {
   }
   100% {
     top: 15%;
-    left: -20%;
+    left: 115%;
   }
 }
 
 @keyframes wave23-move {
   0% {
     top: 15%;
-    left: -150%;
+    left: -175%;
   }
   30% {
     top: 10%;
@@ -1847,74 +1847,74 @@ body {
   }
   100% {
     top: 15%;
-    left: -20%;
+    left: 115%;
   }
 }
 
 @-webkit-keyframes wave24-move {
   0% {
     top: 65%;
-    left: -150%;
+    left: -175%;
   }
   30% {
-    top: 70%;
+    top: 60%;
   }
   70% {
-    top: 60%;
+    top: 70%;
   }
   100% {
     top: 65%;
-    left: -20%;
+    left: 115%;
   }
 }
 
 @keyframes wave24-move {
   0% {
     top: 65%;
-    left: -150%;
+    left: -175%;
   }
   30% {
-    top: 70%;
+    top: 60%;
   }
   70% {
-    top: 60%;
+    top: 70%;
   }
   100% {
     top: 65%;
-    left: -20%;
+    left: 115%;
   }
 }
 
 @-webkit-keyframes boat {
   0% {
-    top: -20%;
-    left: -20%;
+    top: -10%;
+    left: -30%;
   }
   30% {
-    top: -10%;
+    top: 10%;
   }
   70% {
     top: -30%;
   }
   100% {
-    top: -20%;
+    top: -10%;
     left: 120%;
   }
 }
 
 @keyframes boat {
   0% {
-    top: -20%;
-    left: -20%;
+    top: -10%;
+    left: -30%;
   }
   30% {
-    top: -10%;
+    top: 10%;
   }
   70% {
     top: -30%;
   }
   100% {
-    top: -20%;
+    top: -10%;
     left: 120%;
   }
 }
