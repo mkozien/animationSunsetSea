@@ -11,7 +11,7 @@ body {
 
 .sky {
   position: relative;
-  height: 50vh;
+  height: 70vh;
   width: 100%;
   background-color: #0d61d5;
   -webkit-animation: sky 16s linear infinite;
@@ -417,7 +417,7 @@ body {
 
 .sea {
   position: relative;
-  height: 20vh;
+  height: 30vh;
   width: 100%;
   background-color: #c2dfff;
   -webkit-animation: sea 16s linear infinite;
@@ -426,7 +426,7 @@ body {
 
 .boat {
   position: absolute;
-  top: -25%;
+  top: -15%;
   left: 50%;
   height: 300px;
   width: 400px;
@@ -685,22 +685,6 @@ body {
   -webkit-animation: wave24-move 16s linear infinite, sea 16s linear infinite;
           animation: wave24-move 16s linear infinite, sea 16s linear infinite;
   z-index: 6;
-}
-
-.beach {
-  position: relative;
-  height: 20vh;
-  width: 100%;
-  background-color: #e5c050;
-  z-index: 8;
-}
-
-.ground {
-  position: relative;
-  height: 10vh;
-  width: 100%;
-  background-color: #533b24;
-  z-index: 10;
 }
 
 @-webkit-keyframes sun {
@@ -1903,34 +1887,34 @@ body {
 
 @-webkit-keyframes boat {
   0% {
-    top: -40%;
+    top: -20%;
     left: -20%;
   }
   30% {
-    top: -30%;
+    top: -10%;
   }
   70% {
-    top: -50%;
+    top: -30%;
   }
   100% {
-    top: -40%;
+    top: -20%;
     left: 120%;
   }
 }
 
 @keyframes boat {
   0% {
-    top: -40%;
+    top: -20%;
     left: -20%;
   }
   30% {
-    top: -30%;
+    top: -10%;
   }
   70% {
-    top: -50%;
+    top: -30%;
   }
   100% {
-    top: -40%;
+    top: -20%;
     left: 120%;
   }
 }
